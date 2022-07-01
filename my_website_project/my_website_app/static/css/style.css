@@ -1,25 +1,46 @@
 .header {
     text-align: center;
     padding-top: 15px;
+    font-family: Rockwell;
 }
 
 .about-me {
-    font-size: 23px;
-    padding: 25px;
+    font-size: 30px;
+    font-family: Rockwell;
+    margin-left: 35px;
+    background-color: rgba(17, 153, 216, 0.918);
 }
 
 .projects {
-    margin-left: 25px;
+    margin-left: 35px;
+    font-family: Rockwell;
+}
+
+.blue-project {
+    background-color: rgba(17, 153, 216, 0.918);
+}
+
+.project-desc {
+    font-size: 30px;
+    font-family: Rockwell;
 }
 
 .work-experience {
     margin-left: 25px;
+    font-family: Rockwell;
+}
+
+.about-me-header {
+    margin-left: 10px;
+    font-family: Rockwell;
 }
 
 #projects-header {
     margin-left: 15px;
+    font-family: Rockwell;
 }
 
 #work-header {
     margin-left: 15px;
+    font-family: Rockwell;
 }
