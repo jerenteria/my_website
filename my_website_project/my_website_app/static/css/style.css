@@ -4,11 +4,29 @@
     font-family: Rockwell;
 }
 
+.socials {
+    text-align: right;
+    margin-right: 35px;
+}
+
+.follow-here{
+    font-size: 30px;
+    font-family: Rockwell;
+}
+
 .about-me {
     font-size: 30px;
     font-family: Rockwell;
     margin-left: 35px;
     background-color: rgba(17, 153, 216, 0.918);
+}
+
+.gh-commits {
+    text-align: center;
+}
+
+.commits-header {
+    font-family: Rockwell;
 }
 
 .projects {
@@ -44,3 +62,4 @@
     margin-left: 15px;
     font-family: Rockwell;
 }
+
