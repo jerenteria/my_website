@@ -14,10 +14,16 @@
     font-family: Rockwell;
 }
 
-.about-me {
-    font-size: 30px;
+.about-me-header {
+    margin-left: 10px;
     font-family: Rockwell;
-    margin-left: 35px;
+}
+
+.about-me {
+    font-size: 24px;
+    font-family: Rockwell;
+    padding: 25px;
+    border-radius: 15px;
     background-color: rgba(17, 153, 216, 0.918);
 }
 
@@ -30,23 +36,27 @@
 }
 
 .projects {
-    margin-left: 35px;
+    /* margin-left: 35px; */
     font-family: Rockwell;
 }
 
 .blue-project {
-    background-color: rgba(17, 153, 216, 0.918);
+    font-family: Rockwell;
+    font-size: 14px;
     padding: 25px;
+    border-radius: 15px;
+    background-color: rgba(17, 153, 216, 0.918);
 }
 
 .white-project {
-    padding: 25px;
     font-family: Rockwell;
+    font-size: 24px;
+    padding: 25px;
 }
 
 .project-desc {
-    font-size: 30px;
     font-family: Rockwell;
+    font-size: 24px;
 }
 
 .work-experience {
@@ -55,10 +65,6 @@
     font-family: Rockwell;
 }
 
-.about-me-header {
-    margin-left: 10px;
-    font-family: Rockwell;
-}
 
 #projects-header {
     margin-left: 15px;
