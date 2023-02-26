@@ -1,3 +1,9 @@
+.wrapper {
+    background-color: lightgray;
+    padding: 0px;
+    margin: 0px;
+}
+
 .header {
     text-align: center;
     padding-top: 15px;
@@ -20,11 +26,9 @@
 }
 
 .about-me {
-    font-size: 24px;
     font-family: Rockwell;
-    padding: 25px;
-    border-radius: 15px;
-    background-color: rgba(17, 153, 216, 0.918);
+    font-size: 24px;
+    margin-left: 35px;
 }
 
 .gh-commits {
@@ -36,31 +40,11 @@
 }
 
 .projects {
-    /* margin-left: 35px; */
+    margin-left: 35px;
     font-family: Rockwell;
-}
-
-.blue-project {
-    font-family: Rockwell;
-    font-size: 14px;
-    padding: 25px;
-    border-radius: 15px;
-    background-color: rgba(17, 153, 216, 0.918);
-}
-
-.white-project {
-    font-family: Rockwell;
-    font-size: 24px;
-    padding: 25px;
-}
-
-.project-desc {
-    font-family: Rockwell;
-    font-size: 24px;
 }
 
 .work-experience {
-    padding: 25px;
     margin-left: 25px;
     font-family: Rockwell;
 }
@@ -69,11 +53,10 @@
 #projects-header {
     margin-left: 15px;
     font-family: Rockwell;
+    color: green;
 }
 
 #work-header {
-    padding: 25px;
-    margin-left: 15px;
     font-family: Rockwell;
 }
 
@@ -86,3 +69,13 @@
     text-align: center;
     padding: 30px;
 }
+
+h1 {
+    font-family: Rockwell;   
+}
+
+p {
+    font-family: Rockwell;
+    font-size: 24px;
+}
+
