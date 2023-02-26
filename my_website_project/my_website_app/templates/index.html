@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/static/css/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="static/images/jr_logo2.jpeg"/>
-    
+    <link rel="shortcut icon" type="image/x-icon" href="static/images/jr_logo2.jpeg" />
+
     <title>Home</title>
 </head>
+
 <body>
     {% load static %}
-    <div class="container">
-        <h1 class="header">Welcome to juanrenteria.net! 
-        <br>
-        Take a look at some of my projects</h1>
+    <div class="wrapper">
+        <h1 class="header">Welcome to juanrenteria.net!
+            <br>
+            Take a look at some of my projects</h1>
         <div class="socials">
             <span class="follow-here">Find Me Here --></span>
             <a href="https://www.linkedin.com/in/jer96/">
@@ -24,149 +26,140 @@
             </a>
         </div>
         <h1 class="about-me-header">About Me!</h1>
-        <p class="about-me">Hello my name is Juan E Renteria and I am currently located in the Bay Area. I am a Coding Dojo bootcamp graduate looking for
-        my first developer role. I enjoy learning new technologies and solving problems. I currently code everyday to better my skills
-        whether it is creating projects or solving coding questions on leetcode. On my free time I like to watch podcasts and play video
-        games. Feel free to hang around and check out some of my projects.
+        <p class="about-me">Hello my name is Juan Renteria and I am currently located in the Bay Area. I am a full stack
+            developer looking
+            for a developer role. I enjoy learning new technologies and problem solving. I am always looking to grow my
+            skills as a developer
+            by creating new projects and grinding leetcode questions. Feel free to hang around and check out some of my
+            projects.
         </p>
         <div class="gh-commits">
             <h1 class="commits-header">Check out my commits over the past year!</h1>
             <img src="static/images/website_main_pic.png" alt="gh_commits" height="450px">
         </div>
-        <h1 id="projects-header">Projects</h1>
+        <h1>Projects</h1>
         <div class="projects">
-            <div class="blue-project">
-                <h2><a href="https://juan-nasa-api.herokuapp.com">NASA API</a></h2>
-                <p class="project-desc">This app uses a authorized API token from nasa allowing to fetch data about
+            <h2 class="project-header"><a href="https://juan-nasa-api.herokuapp.com">NASA API</a></h2>
+            <p class="project-desc">This app uses a authorized API token from nasa allowing to fetch data about
                 important space news. Data is received in json format but presented clearly for a better user experience
-                </p>
-            </div>
-            <div class="white-project">
-                <h2><a href="https://juan-ig-clone.herokuapp.com">INSTAGRAM CLONE</a></h2>
-                <p class="project-desc">App was created using Python. Users can login and regiseter. After logging in 
-                    users will be greeted with their custom user name and are able to upload pictures and post them on 
-                    their timeline.
-                </p>
-            </div>
-            <div class="blue-project">
-                <h2><a href="https://github.com/jerenteria/price_checker">PRICE CHECKER</a></h2>
-                <p class="project-desc">With the help of BeautifulSoup4 I was able to parse HTML elements and print the 
-                    the current price of an object in the terminal.
-                </p>
-            </div>
-            <div class="white-project">
-                <h2><a href="https://github.com/jerenteria/selenium_scraper">SELENIUM SCRAPER</a></h2>
-                <p class="project-desc">Selenium allowed me to scrape the internet and go into amazon and purchase any product 
-                    within a matter of seconds. Selenium is very helpful because it looks for certain HTML elements is faster 
-                    at navigating pages than humans!
-                </p>
-            </div>
-            <div class="blue-project">
-                <h2><a href="https://github.com/jerenteria/random_guessing_game">RANDOM GUESSING GAME</a></h2>
-                <p class="project-desc">Using python, I was able to code a game where the user inputs range between two numbers
-                then has to guess which number the game is thinking of. The game stores and later returns the total number of tries
-                it took the user to guess the correct number. 
-                </p>
-            </div>
-            <div class="white-project">
-                <h2><a href="https://github.com/jerenteria/first_react_project">TO DO LIST USING REACT</a></h2>
-                <p class="project-desc">REACT built app to keep track of your to do list. Reusing  REACT components is what makes 
-                    REACT special because you dont have to rebiult something from scratch, you can just reuse your code thats the beauty
-                    of JavaScript!
-                </p>
-            </div>
-            <div class="blue-project">
-                <h2><a href="https://github.com/jerenteria/music_room">MUSIC ROOM</a></h2>
-                <p class="project-desc">Music Room was built with a REACT front end and Python backend. Users are allowed to connect
-                    their spotify account using Spotify API, connect their playlists, and listen together!
-                </p>
-            </div>
-            <div class="white-project">
-                <h2><a href="https://github.com/jerenteria/terminal_game">Speed Typing Game</a></h2>
-                <p class="project-desc">This Python app was created to test your typing skills. Using your terminal the game reads 
-                    random sentences from an external .txt file and you have to type as fast as you can. At the end your WPM
-                    is diplayed in your terminal.
-                </p>
-            </div>
-            <div class="blue-project">
-                <h2><a href="https://github.com/jerenteria/amadon_django">Amadon</a></h2>
-                <p class="project-desc">Django app based off of Amazon. The app allows you to select 
-                    items to purchase. The user is allowed to set the quanity of purchase to up to 
-                    10 times. After adding the items the site will give you the total for the purchase
-                    and total transaction history.
-                </p>
-            </div>
-            <div class="white-project">
-                <h2><a href="https://github.com/jerenteria/restful_tv_shows">Favorite TV Shows</a></h2>
-                <p class="project-desc"> Implemented a restful API to allow user to execute CRUD commands
-                    while adding their favorite tv shows growing up. Users are asked to input the name, network
-                    that the show was on, date of release, and some basic information on what the show is about.
-                </p>
-            </div>
-            <div class="blue-project">
-                <h2><a href="https://github.com/jerenteria/tic_tac_toe/blob/main/app.py">Tic Tac Toe</a></h2>
-                <p class="project-desc"> This Tic Tac Toe app was created using python. You play against the computer and try to win. 
-                    The computer is programmed to always go for the edges first but it will pick random spots on the board if the 
-                    corner spots are not taken.
-                </p>
-            </div>
-            <div class="white-project">
-                <h2><a href="https://github.com/jerenteria/groups_logreg">Groups</a></h2>
-                <p class="project-desc"> Groups allows users to register and log in to create and join groups based off of their interests. When a users comes across
-                    the site and they see a club that shares the same interests as them he can join and become a member of the group. All members 
-                    of the group are diplayed on the homepage.
-                </p>
-            </div>
-            <div class="blue-project">
-                <h2><a href="https://github.com/jerenteria/ecommerce_site">ProClub</a></h2>
-                <p class="project-desc"> Website gives users the option to buy a hoodie or t-shirt. I integrated stripe API to allow 
-                    easy check out for customers. After users select the item that they want to buy the app makes a call and redirects the 
-                    user to the Stripe servers. That way Stripe handles all the payments and I don't have to worry about handling user 
-                    credit card information for a safe checkout experience.
-                </p>
-            </div>
-            <div class="white-project">
-                <h2><a href="https://github.com/jerenteria/random_password_generator/blob/main/generator.py">Password Generator</a></h2>
-                <p class="project-desc"> Created python app that makes it easier for users to come up with passwords. Now that people are
-                    getting their accounts taken everyday, why not generate a secure password? This app generates a random string with lower
-                    case, upper case letters, and random numbers from 0 to 5. 
-                </p>
-            </div>
-            <div class="blue-project">
-                <h2><a href="https://github.com/jerenteria/twilio_sms/blob/master/send_sms.py"> Twilio Messenger</a></h2>
-                <p class="project-desc"> Coded application integrated with Twilio API that allows company to send text messages to clients. With this you are able to 
-                    send clients reminders or important information about your company events. 
-                </p>
-            </div>
-            <div class="white-project">
-                <h2><a href="https://github.com/jerenteria/blog/tree/master/blog_project"> Blog</a></h2>
-                <p class="project-desc"> Created a blog site where users can log in and register. All user data is stored in 
-                    django db.sqlite. Users can share whatever is on their mind with the world and other users are able to respond
-                    to those posts with comments. Come visit us and tell us what you think!
-                </p>
-            </div>
+            </p>
+            <h2 class="project-header"><a href="https://juan-ig-clone.herokuapp.com">INSTAGRAM CLONE</a></h2>
+            <p class="project-desc">App was created using Python. Users can login and regiseter. After logging in
+                users will be greeted with their custom user name and are able to upload pictures and post them on
+                their timeline.
+            </p>
+            <h2 class="project-header"><a href="https://github.com/jerenteria/price_checker">PRICE CHECKER</a></h2>
+            <p class="project-desc">With the help of BeautifulSoup4 I was able to parse HTML elements and print the
+                the current price of an object in the terminal.
+            </p>
+            <h2 class="project-header"><a href="https://github.com/jerenteria/selenium_scraper">SELENIUM SCRAPER</a></h2>
+            <p class="project-desc">Selenium allowed me to scrape the internet and go into amazon and purchase any
+                product
+                within a matter of seconds. Selenium is very helpful because it looks for certain HTML elements is
+                faster
+                at navigating pages than humans!
+            </p>
+            <h2 class="project-header"><a href="https://github.com/jerenteria/random_guessing_game">RANDOM GUESSING GAME</a></h2>
+            <p class="project-desc">Using python, I was able to code a game where the user inputs range between two
+                numbers
+                then has to guess which number the game is thinking of. The game stores and later returns the total
+                number of tries
+                it took the user to guess the correct number.
+            </p>
+            <h2 class="project-header"><a href="https://github.com/jerenteria/first_react_project">TO DO LIST USING REACT</a></h2>
+            <p class="project-desc">REACT built app to keep track of your to do list. Reusing REACT components is what
+                makes
+                REACT special because you dont have to rebiult something from scratch, you can just reuse your code
+                thats the beauty
+                of JavaScript!
+            </p>
+            <h2 class="project-header"><a href="https://github.com/jerenteria/music_room">MUSIC ROOM</a></h2>
+            <p class="project-desc">Music Room was built with a REACT front end and Python backend. Users are allowed to
+                connect
+                their spotify account using Spotify API, connect their playlists, and listen together!
+            </p>
+            <h2 class="project-header"><a href="https://github.com/jerenteria/terminal_game">Speed Typing Game</a></h2>
+            <p class="project-desc">This Python app was created to test your typing skills. Using your terminal the game
+                reads
+                random sentences from an external .txt file and you have to type as fast as you can. At the end your WPM
+                is diplayed in your terminal.
+            </p>
+            <h2 class="project-header"><a href="https://github.com/jerenteria/amadon_django">Amadon</a></h2>
+            <p class="project-desc">Django app based off of Amazon. The app allows you to select
+                items to purchase. The user is allowed to set the quanity of purchase to up to
+                10 times. After adding the items the site will give you the total for the purchase
+                and total transaction history.
+            </p>
+            <h2 class="project-header"><a href="https://github.com/jerenteria/restful_tv_shows">Favorite TV Shows</a></h2>
+            <p class="project-desc"> Implemented a restful API to allow user to execute CRUD commands
+                while adding their favorite tv shows growing up. Users are asked to input the name, network
+                that the show was on, date of release, and some basic information on what the show is about.
+            </p>
+            <h2 class="project-header"><a href="https://github.com/jerenteria/tic_tac_toe/blob/main/app.py">Tic Tac Toe</a></h2>
+            <p class="project-desc"> This Tic Tac Toe app was created using python. You play against the computer and
+                try to win.
+                The computer is programmed to always go for the edges first but it will pick random spots on the board
+                if the
+                corner spots are not taken.
+            </p>
+            <h2 class="project-header"><a href="https://github.com/jerenteria/groups_logreg">Groups</a></h2>
+            <p class="project-desc"> Groups allows users to register and log in to create and join groups based off of
+                their interests. When a users comes across
+                the site and they see a club that shares the same interests as them he can join and become a member of
+                the group. All members
+                of the group are diplayed on the homepage.
+            </p>
+            <h2 class="project-header"><a href="https://github.com/jerenteria/ecommerce_site">ProClub</a></h2>
+            <p class="project-desc"> Website gives users the option to buy a hoodie or t-shirt. I integrated stripe API
+                to allow
+                easy check out for customers. After users select the item that they want to buy the app makes a call and
+                redirects the
+                user to the Stripe servers. That way Stripe handles all the payments and I don't have to worry about
+                handling user
+                credit card information for a safe checkout experience.
+            </p>
+            <h2 class="project-header"><a href="https://github.com/jerenteria/random_password_generator/blob/main/generator.py">
+                Password Generator</a></h2>
+            <p class="project-desc"> Created python app that makes it easier for users to come up with passwords. Now
+                that people are
+                getting their accounts taken everyday, why not generate a secure password? This app generates a random
+                string with lower
+                case, upper case letters, and random numbers from 0 to 5.
+            </p>
+            <h2 class="project-header"><a href="https://github.com/jerenteria/twilio_sms/blob/master/send_sms.py"> Twilio Messenger</a></h2>
+            <p class="project-desc"> Coded application integrated with Twilio API that allows company to send text
+                messages to clients. With this you are able to
+                send clients reminders or important information about your company events.
+            </p>
+            <h2 class="project-header"><a href="https://github.com/jerenteria/blog/tree/master/blog_project"> Blog</a></h2>
+            <p class="project-desc"> Created a blog site where users can log in and register. All user data is stored in
+                django db.sqlite. Users can share whatever is on their mind with the world and other users are able to
+                respond
+                to those posts with comments. Come visit us and tell us what you think!
+            </p>
         </div>
-    </div>
-</div>
         <h1 id="work-header">Work Experience</h1>
         <div class="work-experience">
             <h2>JR SERVICES</h2>
-            <p class="project-desc">Coded and deployed a landing page for a local tree company looking to expand its business! Page was
-                deployed using AWS. Client is now able to show their clients what they are capable of to satisfy their needs.
+            <p class="project-desc">Coded and deployed a landing page for a local tree company looking to expand its
+                business! Page was
+                deployed using AWS. Client is now able to show their clients what they are capable of to satisfy their
+                needs.
             </p>
         </div>
         <h1 id="skills">Skills and Technologies</h1>
         <div class="skills-tech">
-                <img src="static/images/html.png" alt="html" height="80px">
-                <img src="static/images/css-3.png" alt="css" height="80px">
-                <img src="static/images/python.png" alt="python" height="80px">
-                <img src="static/images/java.png" alt="java" height="80px">
-                <img src="static/images/js.png" alt="js" height="80px">
-                <img src="static/images/react.png" alt="react" height="80px">
-                <img src="static/images/mysql.png" alt="mysql" height="80px">
-                <img src="static/images/github_logo.png" alt="gh" height="80px">
+            <img src="static/images/html.png" alt="html" height="80px">
+            <img src="static/images/css-3.png" alt="css" height="80px">
+            <img src="static/images/python.png" alt="python" height="80px">
+            <img src="static/images/java.png" alt="java" height="80px">
+            <img src="static/images/js.png" alt="js" height="80px">
+            <img src="static/images/react.png" alt="react" height="80px">
+            <img src="static/images/mysql.png" alt="mysql" height="80px">
+            <img src="static/images/github_logo.png" alt="gh" height="80px">
 
         </div>
     </div>
 </body>
+
 </html>
