@@ -1,21 +1,20 @@
 .wrapper {
     background-color: lightgray;
-    padding: 0px;
-    margin: 0px;
+    height: 100%;
 }
 
-/* .header {
+.header {
     text-align: center;
     padding-top: 15px;
     font-family: Rockwell;
-} */
+}
 
 .socials {
     text-align: right;
     margin-right: 35px;
 }
 
-.follow-here{
+.follow-here {
     font-size: 30px;
     font-family: Rockwell;
 }
@@ -31,34 +30,57 @@
     margin-left: 35px;
 }
 
-.gh-commits {
-    text-align: center;
-}
-
 .commits-header {
     font-family: Rockwell;
 }
 
+.gh-commits {
+    text-align: center;
+}
+
+.projects-header {
+    font-family: Rockwell;
+    margin-left: 10px;
+}
+
 .projects {
-    margin-left: 35px;
     font-family: Rockwell;
 }
 
-.work-experience {
+.project-header {
     margin-left: 25px;
     font-family: Rockwell;
 }
 
-
-#projects-header {
-    margin-left: 15px;
-    font-family: Rockwell;
-    color: green;
+.project-header :hover {
+    color: #383838;
 }
+
+
+.project-desc {
+    margin-left: 35px;
+    font-size: 24px;
+}
+
 
 #work-header {
     font-family: Rockwell;
+    margin-left: 10px;
 }
+
+.work-experience {
+    font-family: Rockwell;
+}
+
+.job-header {
+    margin-left: 25px;
+}
+
+.job-desc {
+    margin-left: 35px;
+    font-size: 24px;
+}
+
 
 #skills {
     font-family: Rockwell;
@@ -68,14 +90,5 @@
 .skills-tech {
     text-align: center;
     padding: 30px;
-}
-
-h1 {
-    font-family: Rockwell;   
-}
-
-p {
-    font-family: Rockwell;
-    font-size: 24px;
 }
 
